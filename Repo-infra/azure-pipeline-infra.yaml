@@ -1,0 +1,76 @@
+trigger: none
+stages:
+- stage: DeployDev
+  displayName: Deploy to dev environment
+  jobs:
+  - job: Plan
+    continueOnError: false
+    workspace:
+      clean: all 
+    steps:
+    - checkout: self 
+    - task: Cache@2
+      displayName: 'Set Cache for TF Artifact'
+      inputs:
+        key: tf | terraform | "$(Build.BuildNumber)" | $(Build.SourceVersion)
+        path: infraestructure
+    - task: JasonBJohnson.azure-pipelines-tasks-terraform.azure-pipelines-tasks-terraform-installer.TerraformInstaller@2
+      inputs:
+        terraformVersion: 'latest'  
+    - task: TerraformTaskV4@4
+      inputs:
+        provider: azurerm
+        command: init
+        backendServiceArm: automatizacion-azure
+        backendAzureRmResourceGroupName: tfg
+        backendAzureRmStorageAccountName: badtfstate
+        backendAzureRmContainerName: tfstate
+        backendAzureRmKey: terraform1.tfstate
+        workingDirectory: infraestructure
+    - task: TerraformTaskV4@4
+      inputs:
+        environmentServiceNameAzureRM: automatizacion-azure
+        provider: azurerm
+        command: plan
+        workingDirectory: infraestructure
+        commandOptions: -out=plan.tfplan
+
+  - job: ValidatePlan
+    displayName: 'manual: validate terraform plan'
+    dependsOn: Plan
+    pool: server
+    timeoutInMinutes: 4320 # 3 days
+    steps:
+    - task: ManualValidation@0
+      timeoutInMinutes: 1440 # 1 day
+      inputs:
+        notifyUsers: |
+          $(Build.QueuedBy)
+        instructions: 'Valide el plan de despliegue de terraform antes de continuar con su aplicación.'
+        onTimeout: 'reject'
+
+  - deployment: Apply
+    dependsOn: ValidatePlan
+    environment: dev
+    strategy:
+      runOnce:
+        deploy:
+          steps:  
+          - checkout: self 
+          - task: Cache@2
+            displayName: 'Get Cache for TF Artifact'
+            inputs:
+              key: tf | terraform | "$(Build.BuildNumber)" | $(Build.SourceVersion)
+              path: infraestructure
+          - task: JasonBJohnson.azure-pipelines-tasks-terraform.azure-pipelines-tasks-terraform-installer.TerraformInstaller@2
+            inputs:
+              terraformVersion: 'latest'           
+          - task: TerraformTaskV4@4
+            inputs:
+              provider: azurerm
+              command: apply
+              workingDirectory: infraestructure
+              commandOptions: plan.tfplan
+              environmentServiceNameAzureRM: automatizacion-azure
+
+

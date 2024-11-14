@@ -1,0 +1,26 @@
+stages:
+- stage: DeployDev
+  displayName: Deploy to dev environment
+  jobs:
+  - job: BuildAndPush
+    continueOnError: false
+    workspace:
+      clean: all 
+    steps:
+    - task: AzureCLI@2
+      inputs:
+        azureSubscription: automatizacion-azure
+        scriptType: 'bash'
+        scriptLocation: 'inlineScript'
+        inlineScript: |
+          # Iniciar sesión en ACR
+          az acr login --name proyectoacrbad
+
+          # Construir la imagen Docker
+          docker build -t myimage .
+
+          # Etiquetar la imagen Docker
+          docker tag myimage proyectoacrbad.azurecr.io/myimage:v1
+
+          # Hacer push de la imagen Docker a ACR
+          docker push proyectoacrbad.azurecr.io/myimage:v1

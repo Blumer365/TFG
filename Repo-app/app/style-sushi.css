@@ -1,0 +1,819 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #B45F06;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+h2 {
+    font-size: 46px;
+    color: #543D29;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    border-bottom: 4px solid #dfbd9a;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #dfbd9a;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.social a {
+    color: #543D29;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+/* ICONOS */
+
+    .icono {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+    }
+
+    .icono-arriba-izquierda {
+        top: 25px;
+        left: 25px;
+    }
+
+    .icono-arriba-derecha {
+        top: 25px;
+        right: 25px;
+    }
+
+    .icono-abajo-izquierda {
+        bottom: 25px;
+        left: 25px;
+    }
+
+    .icono-abajo-derecha {
+        bottom: 25px;
+        right: 25px;
+    }
+
+/* FIN ICONOS */
+
+/* PAGINA PRINCIPAL */
+
+    .category h3 {
+        font-size: 46px;
+        margin-top: 7rem;
+    }
+
+    #fondo-descubre {
+        padding: 1rem 0;
+        background-color: #DFBD9A;
+        text-align: center;
+        color: #53381f;
+    }
+
+    #contact {
+        padding-bottom: 3rem;
+        background-color: #ECAC6A;
+    }
+
+    #contact h2 {
+        color: #a4642b;
+    }
+
+    #contact .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 2rem 2rem 1rem 2rem;
+    }
+
+    .contacto {
+        background-color: antiquewhite;
+        align-self: center;
+        margin-right: 20px;
+        padding: 25px;
+    }
+
+    #contact .ubicacion {
+        display: flex;
+        justify-content: center;
+    }
+
+    li.dropdown {
+        display: none;
+    }
+
+    /* imágenes de separación */
+
+        .contenedor-imagenes {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        
+        .fila {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .fila img {
+            width: calc(25% - 0px);
+        }
+
+    /* FIN imágenes de separación */
+
+    /* OPINIONES - REVIEW */
+
+        #reviews {
+            padding-bottom: 3rem;
+            background-color: #DFBD9A;
+        }
+
+        .opiniones {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 5rem;
+        }
+        
+        .cliente {
+            width: 45%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .cliente img {
+            width: 70%;
+            border-radius: 50%;
+        }
+        
+        .cliente p {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+    /* FIN OPINIONES - REVIEW */
+
+    /* Menú diseño principal */
+
+        .dish {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .dish-info {
+            flex: 1;
+        }
+
+        .dish-info h4 {
+            margin-top: 0;
+        }
+
+        .dish-image {
+            flex: 1;
+            text-align: right;
+        }
+
+        .dish-image img {
+            max-width: 75%;
+            height: auto;
+        }
+
+        .dish p {
+            font-size: 1em;
+            color: #000000;
+        }
+        
+        .dish:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+    /* FIN Menú diseño principal */
+
+/* FIN PÁGINA PRINCIPAL */
+
+/* BOTÓN SCROLL ARRIBA */
+
+    #goTopButton {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 09;
+        border: none;
+        outline: none;
+        background-color: #B45F06;
+        color: rgb(255, 239, 210);
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 50%;
+    }
+
+    #goTopButton:hover {
+        background-color: #9e5b12;
+    }
+
+/* FIN BOTÓN SCROLL ARRIBA */
+
+/* MENU COMPLETO */
+
+    .fondo-menu {
+        background-color: #dfbd9aa5;
+        padding: 0 10rem 40px 10rem;
+        position: relative;
+    }
+
+    #menu-inicio {
+        text-align: center;
+        color: #53381f;
+        padding: 0 2rem;
+        position: relative;
+    }
+
+    .div-botonmenu {
+        text-align: center;
+        padding: 80px;
+    }
+
+    .boton-menu-completo {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #E07B39;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .boton-menu-completo:hover {
+        background-color: #C65E1E;
+    }
+
+    .titulo-cartacompleta h2 {
+        padding-top: 6rem;
+    }
+
+    #menu {
+        padding-top: 4rem;
+    }
+
+    .category {
+        margin-bottom: 3rem;
+    }
+
+    .categorias {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    /* transparencia al div del menú */
+    
+        .fondo-semi-transparente {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            z-index: -1;
+        }
+
+        .fondo-imagen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('imgs/img-fondo.jpg');
+            background-size: cover;
+            background-position: center;
+            z-index: -2;
+        }
+
+        .contenido {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+        }
+
+    /* FIN transparencia al div del menú */
+
+/* FIN MENU COMPLETO */
+
+/* SOBRE NOSOTROS */
+
+    #nosotros {
+        padding-top: 5rem;
+    }
+
+    .about-info {
+        padding: 5px 4rem 0 4rem;
+        text-align: justify;
+        
+    }
+
+    #nosotros {
+        padding-bottom: 3rem;
+        background-color: #DFBD9A;
+    }
+
+    .nosotros-intro {
+        text-align: center;
+        padding: 2rem 35rem 0 35rem;
+    }
+
+    .div-botonmas {
+        text-align: center;
+    }
+
+    .boton-saber-mas {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #E07B39;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .boton-saber-mas:hover {
+        background-color: #C65E1E;
+    }
+
+    .ttl-entrante {
+        padding-top: 80px;
+        font-size: 46px;
+    }
+
+/* ACORDEÓN */
+
+    .faq h2 {
+        color:#DFBD9A;
+
+    }
+
+    #preguntas {
+        padding: 2rem 22rem 4rem 22rem;
+        background-image: url('imgs/sobre-nosotros.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .accordion-btn {
+        background-color: #B45F06;
+        color: #fff;
+        cursor: pointer;
+        padding: 20px 20px 20px 2rem;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: background-color 0.3s;
+        font-size: 16px;
+    }
+
+    .accordion-btn:hover {
+        background-color: #543D29;
+    }
+
+    .panel {
+        padding: 0 1rem;
+        background-color: #dcd2ca;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
+    .panel p {
+        font-size: 14px;
+        margin: 20px;
+    }
+
+/* FIN ACORDEÓN */
+
+/* LOGO */
+
+    .logo-link {
+        display: inline-block;
+    }
+
+    .logo-link img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .logo-link-footer {
+        display: contents;
+    }
+
+    .logo-link-footer img {
+        max-width: 100px;
+        height: auto;
+    }
+
+/* FIN LOGO */
+
+/* FOOTER */
+
+    footer .telefono {
+        padding-right: 10px;
+    }
+
+    footer {
+        background-color: #B45F06;
+        color: #F9CB9C;
+        padding: 2rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer .left, footer .middle, footer .right {
+        display: flex;
+        align-items: center;
+    }
+    
+    footer .middle img {
+        width: 100px;
+        height: auto;
+    }
+
+    footer .middle {
+        display: inline-block;
+    }
+    
+    footer .left {
+        margin-left: 8rem;
+    }
+
+    footer .left .ubicacion a {
+        color: #fff;
+        margin-right: 20px;
+    }
+    
+    footer .ubicacion, footer .redes-sociales {
+        margin-right: 10px;
+    }
+    
+    footer .ubicacion i, footer .redes-sociales i {
+        margin-right: 5px;
+    }
+
+    footer .right {
+        margin-right: 8rem;
+    }
+
+    footer .right a {
+        margin-left: 20px;
+        color: #DFBD9A;
+    }
+
+/* FIN FOOTER */
+
+/* Media query para el móvil */
+
+    @media (max-width: 768px) {
+        
+        li .dropdown a, .dropbtn {
+            display: inline-block;
+            color: #673800;
+            text-align: center;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bold;
+        }
+          
+        li .dropdown a:hover, .dropdown:hover .dropbtn {
+            background-color: #955200;
+        }
+          
+        li.dropdown {
+            display: inline-block;
+        }
+
+        #contact .ubicacion {
+            display: flex;
+            padding: 0px 20px 20px 20px;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        iframe {
+            width: 80%;
+        }
+
+        .contacto {
+            background-color: antiquewhite;
+            align-self: center;
+            padding: 25px;
+            margin: 0 0 2rem 0;
+        }
+
+        .navbar nav {
+            display: none;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 3rem;
+            border-bottom: 4px solid #dfbd9a;
+
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9eada;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            right: 0;
+        }
+          
+        .dropdown-content a {
+            color: #372008;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+          
+        .dropdown-content a:hover {
+            background-color: #e8ccb5;
+        }
+          
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .nosotros-intro {
+            text-align: center;
+            color: #53381f;
+            padding: 2rem 2rem 0 2rem;
+        }
+
+        #menu-inicio {
+            text-align: center;
+            color: #53381f;
+            padding: 0;
+            position: relative;
+        }
+
+        .categorias {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+
+        .detalle p {
+            margin: 15px;
+            font-size: 12px;
+        }
+
+        .category h3 {
+            font-size: 36px;
+            margin-top: 7rem 2rem 2rem 2rem;
+        }
+
+        #contact .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem 2rem 1rem 2rem;
+        }
+
+        h2 {
+            font-size: 34px;
+            color: #543D29;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 2rem;
+        }
+
+        .opiniones {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 3rem;
+        }
+
+        #preguntas {
+            padding: 2rem 5rem 4rem 5rem;
+            background-image: url(imgs/sobre-nosotros.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .fondo-menu {
+            background-color: #dfbd9aa5;
+            padding: 0 20px 40px 20px;
+            position: relative;
+        }
+
+        footer {
+            background-color: #B45F06;
+            color: #F9CB9C;
+            padding: 2rem 1rem;
+            justify-content: space-between;
+            align-items: center;
+            display: list-item;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        footer .middle img {
+            display: none;
+        }
+        
+        footer .left {
+            text-align: start;
+            margin-left: 0px;
+            font-size: 12px;
+        }
+
+        footer .right {
+            font-size: 10px;
+            margin-right: 35px;
+        }
+
+        footer .left span {
+            margin-right: 15px;
+        }
+
+    }
+
+/* Media query para iPads */
+/* ¡¡¡ACUUUUUUERDATE QUE TIENES QUE CAMBIAR EL MAX DE 1200 A 1024!!! */
+    @media (min-width: 768px) and (max-width: 1200px) {
+        
+        .nosotros-intro {
+            text-align: center;
+            color: #53381f;
+            padding: 2rem 10rem 0 10rem;
+        }
+
+        #menu-inicio {
+            text-align: center;
+            color: #53381f;
+            padding: 0 1rem;
+            position: relative;
+        }
+
+        #contact .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem 2rem 1rem 2rem;
+        }
+
+        .categorias {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        
+        .detalle p {
+            margin: 20px;
+            font-size: 16px;
+        }
+
+        #contact .ubicacion {
+            display: flex;
+            padding: 0px 20px 20px 20px;
+        }
+
+        h2 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 2rem;
+        }
+
+        .category h3 {
+            font-size: 40px;
+            margin-top: 7rem;
+        }
+
+        .cliente img {
+            width: 40%;
+            border-radius: 50%;
+        }
+
+        .cliente p {
+            margin-top: 18px;
+            text-align: center;
+            font-size: 16px;
+            padding: 0 25px;
+        } 
+
+        .fondo-menu {
+            background-color: #dfbd9aa5;
+            padding: 0 20px 40px 20px;
+            position: relative;
+        }  
+
+        #preguntas {
+            padding: 2rem 12rem 4rem 12rem;
+            background-image: url('imgs/sobre-nosotros.jpg');
+            background-size: cover;
+            background-position: center;
+        }   
+
+        footer {
+            background-color: #B45F06;
+            color: #F9CB9C;
+            padding: 1rem 1rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }  
+
+        footer .left {
+            margin-left: 1rem;
+            font-size: 10px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            align-items: end;
+            justify-items: center;
+        }
+
+        footer .middle img {
+            width: 80px;
+            height: auto;
+        }
+
+        footer .right {
+            margin-right: 3rem;
+            font-size: 12px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        footer .right a {
+            margin-left: 0px;
+            color: #DFBD9A;
+            text-align: center;
+
+        }
+
+        footer .right span {
+            margin: 0 10px 0 -6rem;
+        }
+
+    }
