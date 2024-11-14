@@ -22,6 +22,9 @@ El proyecto está dividido en dos partes principales:
    ```bash
    git clone <URL_REPO_APP>
    git clone <URL_REPO_INFRA>
+   Configurar variables en los archivos de pipeline (azure-pipeline-app.yml y azure-pipeline-infra.yaml).
+2. Crear pipelines en Azure DevOps y vincular los repositorios.
+3. Ejecutar los pipelines para desplegar la infraestructura y la aplicación.
 
 # Contribución
 A día de hoy necesitaría una cuenta de Azure para poder hacer funcionar el proyecto y poder ver online la webapp. Tenía una cuenta gratuíta para exponerlo al jurado en su momento pero ya acabó.
