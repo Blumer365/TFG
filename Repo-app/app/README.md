@@ -1,5 +1,6 @@
 # Introducción 
-Al haberme centrado en lo importante, la automatización, hay detalles en la parte de la web que delegué para hacer más adelante si quería perfeccionarlo.
+He decidido crear este archivo para aclarar ciertos apartados, ya que están a medias o tal vez mal. Aún tengo que mejorar detalles y ¡agradezco cualquier sugerencia!
+Resulta que, al haberme centrado en lo más importante de mi proyecto (la automatización), hay detalles en la parte de la web que delegué para hacer más adelante si quería perfeccionarlo.
 
 # Decisiones de Diseño
 Hice la página con PHP porque en un inicio quería implementar una base de datos para almacenar y recuperar información.
