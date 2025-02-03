@@ -12,6 +12,17 @@ Hice la página con PHP porque en un inicio quería implementar una base de dato
    - Permitir a los usuarios crear una cuenta, iniciar sesión y guardar su información.
 2. **TailWindCss**
    - Echarle un vistazo porque estaría bien probarlo
+3. **Función script**
+   - Sacar la función de scrpt para q no sea tan pesado en cada uno de los php que he creado.
+4. **Scroll**
+   - El scroll se puede hacer con css en vez de JS. Est práctica es mucho mejor debido a que hará que no pese tanto.
+5. **Performance de las Imágenes**
+   - Hay muchas imágenes que son grandes y eso relentiza la carga de la página. MDN Web Docs: "responsive_images".
+6. **Accesibilidad**
+Esto es importante para que cualquier persona pueda acceder a la web desde cualquier input.
+    - Los alt con textos super descriptivos son una gran idea para las personas ciegas.
+    - Es importante que siempre haya un H1 por archivo. Puedes cultarlo si no quieres usarlo, pero tenerlo es necesario para el lector de pantalla.
+    - Siempre va a ser mejor tener un botón que un enlace '<a>'.
 
 
 # Contribución
