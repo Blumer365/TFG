@@ -13,7 +13,7 @@
         <header>
             <div class="navbar">
                 <a href="pagina-principal.php" class="logo-link">
-                    <img src="imgs/logo.png" alt="Umai Sushi">
+                    <img src="imgs/logo.png" alt="Umai Sushi"/>
                 </a>
                 <ul>
                     <li class="dropdown">
@@ -66,7 +66,7 @@
                             <p>Alérgenos: Puede contener soja.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/entrantes/entrante-1.jpg" alt="Nombre del entrante 1">
+                            <img src="imgs/entrantes/entrante-1.jpg" alt="Nombre del entrante 1"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -75,7 +75,7 @@
                             <p>Alérgenos: Puede contener trigo, soja, y sésamo.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/entrantes/entrante-2.jpg" alt="Nombre del entrante 2">
+                            <img src="imgs/entrantes/entrante-2.jpg" alt="Nombre del entrante 2"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -84,7 +84,7 @@
                             <p>Alérgenos: Puede contener trigo.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/entrantes/entrante-3.jpg" alt="Nombre del entrante 3">
+                            <img src="imgs/entrantes/entrante-3.jpg" alt="Nombre del entrante 3"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -93,7 +93,7 @@
                             <p>Alérgenos: Puede contener soja.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/entrantes/entrante-4.jpg" alt="Nombre del entrante 4">
+                            <img src="imgs/entrantes/entrante-4.jpg" alt="Nombre del entrante 4"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -102,7 +102,7 @@
                             <p>Alérgenos: Puede contener trigo, soja, y sésamo.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/entrantes/entrante-5.jpg" alt="Nombre del entrante 5">
+                            <img src="imgs/entrantes/entrante-5.jpg" alt="Nombre del entrante 5"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -111,7 +111,7 @@
                             <p>Alérgenos: Puede contener trigo, soja, y sésamo.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/entrantes/entrante-6.jpg" alt="Nombre del entrante 6">
+                            <img src="imgs/entrantes/entrante-6.jpg" alt="Nombre del entrante 6"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -120,7 +120,7 @@
                             <p>Alérgenos: Puede contener mariscos.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/entrantes/entrante-7.jpg" alt="Nombre del entrante 7">
+                            <img src="imgs/entrantes/entrante-7.jpg" alt="Nombre del entrante 7"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -129,7 +129,7 @@
                             <p>Alérgenos: Puede contener trigo, soja, y sésamo.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/entrantes/entrante-8.jpg" alt="Nombre del entrante 8">
+                            <img src="imgs/entrantes/entrante-8.jpg" alt="Nombre del entrante 8"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -138,7 +138,7 @@
                             <p>Alérgenos: Puede contener soja, gluten y sésamo.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/entrantes/entrante-9.jpg" alt="Nombre del entrante 9">
+                            <img src="imgs/entrantes/entrante-9.jpg" alt="Nombre del entrante 9"/>
                         </div>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                             <p>Alérgenos: Puede contener trigo y soja en la sopa base, gluten, mariscos, huevos y productos lácteos.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/platos/plato-1.jpg" alt="Nombre del plato 1">
+                            <img src="imgs/platos/plato-1.jpg" alt="Nombre del plato 1"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -164,7 +164,7 @@
                             <p>Alérgenos: Puede contener trigo y soja.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/platos/plato-2.jpg" alt="Nombre del plato 2">
+                            <img src="imgs/platos/plato-2.jpg" alt="Nombre del plato 2"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -173,7 +173,7 @@
                             <p>Alérgenos: Puede contener trigo, soja y sésamo en la salsa de curry y el empanado del katsu.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/platos/plato-3.jpg" alt="Nombre del plato 3">
+                            <img src="imgs/platos/plato-3.jpg" alt="Nombre del plato 3"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -182,7 +182,7 @@
                             <p>Alérgenos: Puede contener trigo, soja y sésamo en el empanado del cerdo.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/platos/plato-4.jpg" alt="Nombre del plato 4">
+                            <img src="imgs/platos/plato-4.jpg" alt="Nombre del plato 4"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -191,7 +191,7 @@
                             <p>Alérgenos: Los ingredientes varían según el tipo de nabe, pero puede incluir mariscos, soja y gluten en la salsa.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/platos/plato-5.jpg" alt="Nombre del plato 5">
+                            <img src="imgs/platos/plato-5.jpg" alt="Nombre del plato 5"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -200,7 +200,7 @@
                             <p>Alérgenos: Puede contener soja, gluten, mariscos y sésamo.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/platos/plato-6.jpg" alt="Nombre del plato 6">
+                            <img src="imgs/platos/plato-6.jpg" alt="Nombre del plato 6"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -209,7 +209,7 @@
                             <p>Alérgenos: Puede contener gluten en la salsa de soja y trigo en la preparación del plato.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/platos/plato-7.jpg" alt="Nombre del plato 7">
+                            <img src="imgs/platos/plato-7.jpg" alt="Nombre del plato 7"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -218,7 +218,7 @@
                             <p>Alérgenos: Puede contener gluten en la salsa de soja y trigo en la preparación del plato.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/platos/plato-8.jpg" alt="Nombre del plato 8">
+                            <img src="imgs/platos/plato-8.jpg" alt="Nombre del plato 8"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -227,7 +227,7 @@
                             <p>Alérgenos: Puede contener soja, gluten y posiblemente mariscos o lácteos.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/platos/plato-9.jpg" alt="Nombre del plato 9">
+                            <img src="imgs/platos/plato-9.jpg" alt="Nombre del plato 9"/>
                         </div>
                     </div>
                 </div>
@@ -244,7 +244,7 @@
                             <p>Alérgenos: Puede contener pescado crudo o cocido, así como mariscos. Dependiendo de la variedad, también puede contener trigo en la salsa de soja o el vinagre de arroz.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-1.jpg" alt="Nombre del sushi 1">
+                            <img src="imgs/sushi/sushi-1.jpg" alt="Nombre del sushi 1"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -253,7 +253,7 @@
                             <p>Alérgenos: Incluye pescado crudo, cocido, mariscos, aguacate y pepino. El alga nori puede contener trazas de mariscos.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-2.jpg" alt="Nombre del sushi 2">
+                            <img src="imgs/sushi/sushi-2.jpg" alt="Nombre del sushi 2"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -262,7 +262,7 @@
                             <p>Alérgenos: Pescado crudo, por lo que puede representar un riesgo de contaminación cruzada con mariscos u otros alérgenos presentes en el área de preparación.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-3.jpg" alt="Nombre del sushi 3">
+                            <img src="imgs/sushi/sushi-3.jpg" alt="Nombre del sushi 3"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -271,7 +271,7 @@
                             <p>Alérgenos: Puede contener cangrejo, aguacate, pepino y masago (huevas de pescado). La salsa teriyaki o mayonesa utilizada para condimentar el roll también puede contener trigo y soja.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-4.jpg" alt="Nombre del sushi 4">
+                            <img src="imgs/sushi/sushi-4.jpg" alt="Nombre del sushi 4"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -280,7 +280,7 @@
                             <p>Alérgenos: Puede contener atún picante, pepino, cebolletas y mayonesa picante. La salsa picante puede contener trigo y soja.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-5.jpg" alt="Nombre del sushi 5">
+                            <img src="imgs/sushi/sushi-5.jpg" alt="Nombre del sushi 5"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -289,7 +289,7 @@
                             <p>Alérgenos: Puede contener anguila asada, aguacate y pepino. La salsa de anguila puede contener trigo y soja.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-6.jpg" alt="Nombre del sushi 6">
+                            <img src="imgs/sushi/sushi-6.jpg" alt="Nombre del sushi 6"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -298,7 +298,7 @@
                             <p>Alérgenos: Puede contener una variedad de pescados crudos o cocidos, aguacate, pepino y mayonesa. Las opciones de pescado pueden variar según la disponibilidad y la preferencia del chef.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-7.jpg" alt="Nombre del sushi 7">
+                            <img src="imgs/sushi/sushi-7.jpg" alt="Nombre del sushi 7"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -307,7 +307,7 @@
                             <p>Alérgenos: Puede contener anguila asada, aguacate y pepino. La salsa de anguila puede contener trigo y soja.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-8.jpg" alt="Nombre del sushi 8">
+                            <img src="imgs/sushi/sushi-8.jpg" alt="Nombre del sushi 8"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -316,7 +316,7 @@
                             <p>Alérgenos: Puede contener salmón ahumado, queso crema, pepino y cebolleta. El queso crema puede contener productos lácteos.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-9.jpg" alt="Nombre del sushi 9">
+                            <img src="imgs/sushi/sushi-9.jpg" alt="Nombre del sushi 9"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -325,7 +325,7 @@
                             <p>Alérgenos: Varían según los ingredientes, pero pueden incluir aguacate, pepino, zanahoria, espárragos y/o tofu. El alga nori puede contener trazas de mariscos.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-10.jpg" alt="Nombre del sushi 10">
+                            <img src="imgs/sushi/sushi-10.jpg" alt="Nombre del sushi 10"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -334,7 +334,7 @@
                             <p>Alérgenos: Puede contener camarón o verduras tempurizadas (como calabacín, zanahoria o pimiento). El empanizado puede contener trigo.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-11.jpg" alt="Nombre del sushi 11">
+                            <img src="imgs/sushi/sushi-11.jpg" alt="Nombre del sushi 11"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -343,7 +343,7 @@
                             <p>Alérgenos: Varían según el relleno, pero puede incluir una combinación de pescado crudo o cocido, mariscos, vegetales y huevo.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-12.jpg" alt="Nombre del sushi 12">
+                            <img src="imgs/sushi/sushi-12.jpg" alt="Nombre del sushi 12"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -352,7 +352,7 @@
                             <p>Alérgenos: Puede contener huevo y trigo en la preparación de la tortilla.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-13.jpg" alt="Nombre del sushi 13">
+                            <img src="imgs/sushi/sushi-13.jpg" alt="Nombre del sushi 13"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -361,7 +361,7 @@
                             <p>Alérgenos: Puede contener anguila asada y salsa de anguila, que puede contener trigo y soja.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-14.jpg" alt="Nombre del sushi 14">
+                            <img src="imgs/sushi/sushi-14.jpg" alt="Nombre del sushi 14"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -370,7 +370,7 @@
                             <p>Alérgenos: Puede contener tofu frito y azúcar en la marinada del tofu.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-15.jpg" alt="Nombre del sushi 15">
+                            <img src="imgs/sushi/sushi-15.jpg" alt="Nombre del sushi 15"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -379,7 +379,7 @@
                             <p>Alérgenos: Puede contener atún crudo y alga nori.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-16.jpg" alt="Nombre del sushi 16">
+                            <img src="imgs/sushi/sushi-16.jpg" alt="Nombre del sushi 16"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -388,7 +388,7 @@
                             <p>Alérgenos: Puede contener pepino y alga nori.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-17.jpg" alt="Nombre del sushi 17">
+                            <img src="imgs/sushi/sushi-17.jpg" alt="Nombre del sushi 17"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -397,7 +397,7 @@
                             <p>Alérgenos: Puede contener salmón crudo o cocido, aguacate y alga nori.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-18.jpg" alt="Nombre del sushi 18">
+                            <img src="imgs/sushi/sushi-18.jpg" alt="Nombre del sushi 18"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -406,7 +406,7 @@
                             <p>Alérgenos: Puede contener camarón cocido y alga nori.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-19.jpg" alt="Nombre del sushi 19">
+                            <img src="imgs/sushi/sushi-19.jpg" alt="Nombre del sushi 19"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -415,7 +415,7 @@
                             <p>Alérgenos: Puede contener pez limón crudo y alga nori.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-20.jpg" alt="Nombre del sushi 20">
+                            <img src="imgs/sushi/sushi-20.jpg" alt="Nombre del sushi 20"/>
                         </div>
                     </div>
                 </div>
@@ -447,7 +447,7 @@
             </div>
             <div class="middle">
                 <a href="pagina-principal.php" class="logo-link-footer">
-                <img src="imgs/logo.png" alt="Umai Sushi">
+                <img src="imgs/logo.png" alt="Umai Sushi"/>
             </div>
             <div class="right">
                 <a href="#">PRIVACIDAD</a>
