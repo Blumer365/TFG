@@ -19,8 +19,8 @@ Hice la página con PHP porque en un inicio quería implementar una base de dato
    - El scroll se puede hacer con css en vez de JS. Est práctica es mucho mejor debido a que hará que no pese tanto.
 5. **Performance de las Imágenes**
    - Hay muchas imágenes que son grandes y eso relentiza la carga de la página. MDN Web Docs: "responsive_images".
-6. **Accesibilidad**
-- Esto es importante para que cualquier persona pueda acceder a la web desde cualquier input.
+6. **Accesibilidad**  
+Esto es importante para que cualquier persona pueda acceder a la web desde cualquier input.
     - Los alt con textos super descriptivos son una gran idea para las personas ciegas.
     - Es importante que siempre haya un H1 por archivo. Puedes cultarlo si no quieres usarlo, pero tenerlo es necesario para el lector de pantalla.
     - Siempre va a ser mejor tener un botón que un enlace.
