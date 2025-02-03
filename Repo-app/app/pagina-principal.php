@@ -13,7 +13,7 @@
         <header>
             <div class="navbar">
                 <a href="pagina-principal.php" class="logo-link">
-                    <img src="imgs/logo.png" alt="Umai Sushi">
+                    <img src="imgs/logo.png" alt="Umai Sushi"/>
                 </a>
                 <ul>
                     <li class="dropdown">
@@ -55,14 +55,14 @@
     <!-- Imágenes de separación -->
         <div class="contenedor-imagenes">
             <div class="fila">
-                <img src="imgs/separacion/img-separacion1.jpg" alt="Imagen 1">
-                <img src="imgs/separacion/img-separacion2.jpg" alt="Imagen 2">
-                <img src="imgs/separacion/img-separacion3.jpg" alt="Imagen 3">
-                <img src="imgs/separacion/img-separacion4.jpg" alt="Imagen 4">
-                <img src="imgs/separacion/img-separacion5.jpg" alt="Imagen 5">
-                <img src="imgs/separacion/img-separacion6.jpg" alt="Imagen 6">
-                <img src="imgs/separacion/img-separacion7.jpg" alt="Imagen 7">
-                <img src="imgs/separacion/img-separacion8.jpg" alt="Imagen 8">
+                <img src="imgs/separacion/img-separacion1.jpg" alt="Imagen 1"/>
+                <img src="imgs/separacion/img-separacion2.jpg" alt="Imagen 2"/>
+                <img src="imgs/separacion/img-separacion3.jpg" alt="Imagen 3"/>
+                <img src="imgs/separacion/img-separacion4.jpg" alt="Imagen 4"/>
+                <img src="imgs/separacion/img-separacion5.jpg" alt="Imagen 5"/>
+                <img src="imgs/separacion/img-separacion6.jpg" alt="Imagen 6"/>
+                <img src="imgs/separacion/img-separacion7.jpg" alt="Imagen 7"/>
+                <img src="imgs/separacion/img-separacion8.jpg" alt="Imagen 8"/>
             </div>
         </div>
     <!-- FIN Imágenes de separación -->
@@ -93,7 +93,7 @@
                             <p>Alérgenos: Puede contener trigo, soja, y sésamo.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/entrantes/entrante-2.jpg" alt="Nombre del entrante 2">
+                            <img src="imgs/entrantes/entrante-2.jpg" alt="Nombre del entrante 2"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -102,7 +102,7 @@
                             <p>Alérgenos: Puede contener soja.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/entrantes/entrante-4.jpg" alt="Nombre del entrante 4">
+                            <img src="imgs/entrantes/entrante-4.jpg" alt="Nombre del entrante 4"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -111,7 +111,7 @@
                             <p>Alérgenos: Puede contener trigo, soja, y sésamo.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/entrantes/entrante-6.jpg" alt="Nombre del entrante 6">
+                            <img src="imgs/entrantes/entrante-6.jpg" alt="Nombre del entrante 6"/>
                         </div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                             <p>Alérgenos: Puede contener trigo y soja en la sopa base, gluten, mariscos, huevos y productos lácteos.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/platos/plato-1.jpg" alt="Nombre del plato 1">
+                            <img src="imgs/platos/plato-1.jpg" alt="Nombre del plato 1"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -137,7 +137,7 @@
                             <p>Alérgenos: Puede contener soja, gluten, mariscos y sésamo.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/platos/plato-6.jpg" alt="Nombre del plato 6">
+                            <img src="imgs/platos/plato-6.jpg" alt="Nombre del plato 6"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -146,7 +146,7 @@
                             <p>Alérgenos: Puede contener gluten en la salsa de soja y trigo en la preparación del plato.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/platos/plato-7.jpg" alt="Nombre del plato 7">
+                            <img src="imgs/platos/plato-7.jpg" alt="Nombre del plato 7"/>
                         </div>
                     </div>
                 </div>
@@ -163,7 +163,7 @@
                             <p>Alérgenos: Puede contener pescado crudo o cocido, así como mariscos. Dependiendo de la variedad, también puede contener trigo en la salsa de soja o el vinagre de arroz.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-1.jpg" alt="Nombre del sushi 1">
+                            <img src="imgs/sushi/sushi-1.jpg" alt="Nombre del sushi 1"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -172,7 +172,7 @@
                             <p>Alérgenos: Incluye pescado crudo, cocido, mariscos, aguacate y pepino. El alga nori puede contener trazas de mariscos.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-2.jpg" alt="Nombre del sushi 2">
+                            <img src="imgs/sushi/sushi-2.jpg" alt="Nombre del sushi 2"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -181,7 +181,7 @@
                             <p>Alérgenos: Pescado crudo, por lo que puede representar un riesgo de contaminación cruzada con mariscos u otros alérgenos presentes en el área de preparación.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-3.jpg" alt="Nombre del sushi 3">
+                            <img src="imgs/sushi/sushi-3.jpg" alt="Nombre del sushi 3"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -190,7 +190,7 @@
                             <p>Alérgenos: Puede contener cangrejo, aguacate, pepino y masago (huevas de pescado). La salsa teriyaki o mayonesa utilizada para condimentar el roll también puede contener trigo y soja.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-4.jpg" alt="Nombre del sushi 4">
+                            <img src="imgs/sushi/sushi-4.jpg" alt="Nombre del sushi 4"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -199,7 +199,7 @@
                             <p>Alérgenos: Puede contener atún picante, pepino, cebolletas y mayonesa picante. La salsa picante puede contener trigo y soja.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-5.jpg" alt="Nombre del sushi 5">
+                            <img src="imgs/sushi/sushi-5.jpg" alt="Nombre del sushi 5"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -208,7 +208,7 @@
                             <p>Alérgenos: Puede contener anguila asada, aguacate y pepino. La salsa de anguila puede contener trigo y soja.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-6.jpg" alt="Nombre del sushi 6">
+                            <img src="imgs/sushi/sushi-6.jpg" alt="Nombre del sushi 6"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -217,7 +217,7 @@
                             <p>Alérgenos: Puede contener una variedad de pescados crudos o cocidos, aguacate, pepino y mayonesa. Las opciones de pescado pueden variar según la disponibilidad y la preferencia del chef.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-7.jpg" alt="Nombre del sushi 7">
+                            <img src="imgs/sushi/sushi-7.jpg" alt="Nombre del sushi 7"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -226,7 +226,7 @@
                             <p>Alérgenos: Puede contener anguila asada, aguacate y pepino. La salsa de anguila puede contener trigo y soja.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-8.jpg" alt="Nombre del sushi 8">
+                            <img src="imgs/sushi/sushi-8.jpg" alt="Nombre del sushi 8"/>
                         </div>
                     </div>
                     <div class="dish">
@@ -235,7 +235,7 @@
                             <p>Alérgenos: Puede contener salmón ahumado, queso crema, pepino y cebolleta. El queso crema puede contener productos lácteos.</p>
                         </div>
                         <div class="dish-image">
-                            <img src="imgs/sushi/sushi-9.jpg" alt="Nombre del sushi 9">
+                            <img src="imgs/sushi/sushi-9.jpg" alt="Nombre del sushi 9"/>
                         </div>
                     </div>
                 </div>
@@ -274,27 +274,27 @@
                 <h2>Opiniones de nuestros clientes</h2>
                 <div class="opiniones">
                     <div class="cliente">
-                        <img src="imgs/opiniones/cliente1.jpg" alt="Cliente 1">
+                        <img src="imgs/opiniones/cliente1.jpg" alt="Cliente 1"/>
                         <p>"Me encanta el sushi fresco y delicioso de aquí. Siempre es una experiencia increíble cada vez que visito este restaurante."</p>
                     </div>
                     <div class="cliente">
-                        <img src="imgs/opiniones/cliente2.jpg" alt="Cliente 2">
+                        <img src="imgs/opiniones/cliente2.jpg" alt="Cliente 2"/>
                         <p>"Umai Sushi ofrece una amplia variedad de sushi y platos japoneses auténticos. ¡Es mi lugar favorito para comer sushi en la ciudad!"</p>
                     </div>
                     <div class="cliente">
-                        <img src="imgs/opiniones/cliente3.jpg" alt="Cliente 3">
+                        <img src="imgs/opiniones/cliente3.jpg" alt="Cliente 3"/>
                         <p>"La calidad del sushi es insuperable. Siempre fresco y delicioso, nunca me decepciona."</p>
                     </div>
                     <div class="cliente">
-                        <img src="imgs/opiniones/cliente4.jpg" alt="Cliente 4">
+                        <img src="imgs/opiniones/cliente4.jpg" alt="Cliente 4"/>
                         <p>"El ambiente es muy acogedor y relajante. Es un lugar perfecto para disfrutar de una comida tranquila y sabrosa."</p>
                     </div>
                     <div class="cliente">
-                        <img src="imgs/opiniones/cliente5.jpg" alt="Cliente 5">
+                        <img src="imgs/opiniones/cliente5.jpg" alt="Cliente 5"/>
                         <p>"He probado muchos restaurantes de sushi, pero Umai Sushi es mi favorito absoluto. La variedad de opciones y la calidad siempre son excelentes."</p>
                     </div>
                     <div class="cliente">
-                        <img src="imgs/opiniones/cliente6.jpg" alt="Cliente 6">
+                        <img src="imgs/opiniones/cliente6.jpg" alt="Cliente 6"/>
                         <p>"El personal siempre es amable y atento. Siempre me siento bienvenido y bien cuidado cada vez que voy."</p>
                     </div>
                 </div>
@@ -321,7 +321,7 @@
                 </div>
                 <div class="middle">
                     <a href="pagina-principal.php" class="logo-link-footer">
-                    <img src="imgs/logo.png" alt="Umai Sushi">
+                    <img src="imgs/logo.png" alt="Umai Sushi"/>
                 </div>
                 <div class="right">
                     <a href="#">PRIVACIDAD</a>
