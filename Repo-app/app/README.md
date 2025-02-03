@@ -1,20 +1,18 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Introducción 
+Al haberme centrado en lo importante, la automatización, hay detalles en la parte de la web que delegué para hacer más adelante si quería perfeccionarlo.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Decisiones de Diseño
+Hice la página con PHP porque en un inicio quería implementar una base de datos para almacenar y recuperar información.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Planes Futuros
+1. **Añadir una base de datos**
+   - Implementar un sistema para almacenar y recuperar datos de manera más eficiente.
+   - Explorar opciones como MySQL o SQLite, dependerá de las necesidades que vea en el proyecto.
+   - Permitir a los usuarios guardar información y consultarla más tarde.
+   - Permitir a los usuarios crear una cuenta, iniciar sesión y guardar su información.
+2. 
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Contribución
+
+
