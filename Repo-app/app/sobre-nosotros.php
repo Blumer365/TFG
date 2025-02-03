@@ -13,7 +13,7 @@
         <header>
             <div class="navbar">
                 <a href="pagina-principal.php" class="logo-link">
-                    <img src="imgs/logo.png" alt="Umai Sushi">
+                    <img src="imgs/logo.png" alt="Umai Sushi"/>
                 </a>
                 <ul>
                     <li class="dropdown">
@@ -161,7 +161,7 @@
                 </div>
                 <div class="middle">
                     <a href="pagina-principal.php" class="logo-link-footer">
-                    <img src="imgs/logo.png" alt="Umai Sushi">
+                    <img src="imgs/logo.png" alt="Umai Sushi"/>
                 </div>
                 <div class="right">
                     <a href="#">PRIVACIDAD</a>
